@@ -1,0 +1,95 @@
+.header{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 1426px;
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.crios-logo{
+    border: 1px solid transparent;
+    box-shadow: 1px 2px 5px #eceef0;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 240px;
+    height: 100px; 
+    padding-top: 10px;
+    border-bottom-left-radius: 100px;  
+    border-bottom-right-radius: 100px; 
+}
+
+.crios-logo a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(27, 130, 240);
+    font-weight: 700;
+    
+}
+
+.crios-logo span{
+    font-size: 10px;
+    color: #eceef0;
+}
+
+.button-menu_icon{
+    box-shadow: 1px 2px 5px #eceef0;
+    border-radius: 50%;
+    padding: 5px 8px;
+    border: 2px solid transparent;
+}
+
+.button-search{
+    box-shadow: 1px 2px 5px #eceef0;
+    border-radius: 50%;
+    padding: 5px 8px;
+    border: 2px solid transparent;
+}
+
+.text{
+    text-align: center;
+    padding-top: 170px;
+}
+
+.text1{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.text2{
+    padding-top: 10px;
+        font-size: 10px;
+    color: #eceef0;
+}
+
+.slide-bar{
+    background-image: url("http://localhost:4000/img/crios-header.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+
+.btn-explore{
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: #43a9ff;
+    font-weight:700;
+    font-size:10px;
+    border-radius: 23px;
+    padding: 15px 30px;
+    background-color: #fefefe;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 5px #eceef0
+}
